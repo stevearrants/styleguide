@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Interface writing - A Starter Style Guide</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Interface writing";
+        var mkdocs_page_input_path = "interfacewriting.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> A Starter Style Guide
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Content for end users</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../howtouse/">How to use this guide</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../usefulresources/">Useful Resources</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Approach</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../principlesofcontent/">Principles of Content</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../addressuser/">Address your user</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../avoidduplication/">Avoid duplication</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../beconcise/">Be concise</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../useplainlanguage/">Use plain language</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../structurecontent/">Structure the content</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Style</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../activevoice/">Active voice</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../prestense/">Present tense</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../capitalization/">Capitalization</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Punctuation/">Punctuation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../images/">Images</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../screenshots/">Using Screenshots</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../abbacronym/">Abbrevations and acronyms</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../numbers/">Numbers and percentages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../specificwords/">Word list</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../avoidcomplexwords/">Avoid complex words</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Writing Specific Content</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../headings/">Headings and titles</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Procs/">Procedures</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Interface writing</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#basics">Basics</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#keep-it-simple">Keep It Simple</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#direct-the-reader">Direct the reader</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#guidelines">Guidelines</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#interface-elements">Interface elements</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#user-input">User input</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#command-line-items">Command line items</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">A Starter Style Guide</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Writing Specific Content</li>
+      <li class="breadcrumb-item active">Interface writing</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="interface-writing">Interface writing</h1>
+<p>We often write technical documentation, references, collaterals, and other materials.
+In most of these cases it's safe to say the reader is
+learning something new or troubleshooting. Write clear, concise
+instructions that give your reader with the best possible experience.</p>
+<h2 id="basics">Basics</h2>
+<h3 id="keep-it-simple">Keep It Simple</h3>
+<p>Help the reader follow along. Break instructions or processes down into
+individual steps. Use short, simple sentences with words people use in
+everyday conversation.</p>
+<p>Refer to navigation labels, buttons, and menus like they appear in the
+application or service. Verify the spelling and capitalization as you write. Your 
+reader looks for the same name as the one in the instructions. Always boldface
+interface items and omit any terminal punctuation from the bold. </p>
+<p>Be specific and give the reader as much help as you can.</p>
+<p>Instead of:</p>
+<blockquote>
+<p>Open a new support ticket.</p>
+</blockquote>
+<p>Use:</p>
+<blockquote>
+<p>Click <strong>Help &gt; Contact Technical Support</strong>.</p>
+</blockquote>
+<p>If the interface item is incorrectly spelled or capitalized, go with the way it
+is presented in the interface. The reader often looks for <em>precisely</em> that spelling. 
+Contact development to suggest an interface edit. </p>
+<h3 id="direct-the-reader">Direct the reader</h3>
+<p>Use active verbs and clear objectives.</p>
+<p>Instead of:</p>
+<blockquote>
+<p>We can help you if you create a service request.</p>
+</blockquote>
+<p>Use:</p>
+<blockquote>
+<p>Select <strong>Support</strong> to create a help request. Include details
+about your problem.</p>
+</blockquote>
+<p>Or:</p>
+<blockquote>
+<p>To get started, select the <strong>Support</strong> link to create a new
+ticket. Remember to include the details of your problem.</p>
+</blockquote>
+<p>Focus on what the reader <em>can do</em> rather than what they
+<em>can't</em> by using positive language.</p>
+<p>Instead of:</p>
+<blockquote>
+<p>You cannot submit without answering all queries.</p>
+</blockquote>
+<p>Use:</p>
+<blockquote>
+<p>Answer any open queries and then submit the request.</p>
+</blockquote>
+<h2 id="guidelines">Guidelines</h2>
+<h3 id="interface-elements">Interface elements</h3>
+<p>Use clear verbs to tell readers how to interact with interface elements:</p>
+<p><em>Choose</em> from drop-down menus.</p>
+<p><em>Select</em> or <em>clear</em> checkboxes and radio buttons.</p>
+<p><em>Select</em>, <em>click</em>, or <em>tap</em> buttons.</p>
+<p><em>Follow</em> or <em>open</em> links.</p>
+<p>Bold interface names and choices:</p>
+<ol>
+<li>Select <strong>File &gt; Open</strong>. Word opens the <strong>File</strong> dialog box.</li>
+<li>Choose the file in the list.</li>
+<li>Select <strong>OK</strong>.</li>
+</ol>
+<p>Always use the spelling, grammar, and exact names seen in the interface
+element.</p>
+<h3 id="user-input">User input</h3>
+<p>Use italic to distinguish user input from plain text. For example,</p>
+<blockquote>
+<p>Type the exact name of the request, such as <em>Validate Changes</em>.</p>
+</blockquote>
+<h3 id="command-line-items">Command line items</h3>
+<p>Command line items should be in monospace. Do not use italic.</p>
+<blockquote>
+<p>At the C: prompt, type the following: <code>chkdsk /v /f</code> and press <strong>Enter</strong>.</p>
+</blockquote>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Procs/" class="btn btn-neutral float-left" title="Procedures"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a></p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Procs/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
