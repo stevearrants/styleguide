@@ -1,0 +1,36 @@
+site_name: A Starter Style Guide
+copyright: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+
+nav:
+  - Content for end users:
+    - How to use this guide: howtouse.md
+    - Useful Resources: usefulresources.md
+  - Approach:
+    - Principles of Content: principlesofcontent.md
+    - Address your user: addressuser.md
+    - Avoid duplication: avoidduplication.md
+    - Be concise: beconcise.md
+    - Use plain language: useplainlanguage.md
+    - Structure the content: structurecontent.md
+  - Style:
+    - Active voice: activevoice.md
+    - Present tense: prestense.md
+    - Capitalization: capitalization.md
+    - Punctuation: Punctuation.md
+    - Images: images.md
+    - Using Screenshots: screenshots.md
+    - Abbrevations and acronyms: abbacronym.md
+    - Numbers and percentages: numbers.md
+    - Word list: specificwords.md
+    - Avoid complex words: avoidcomplexwords.md
+  - Writing Specific Content:
+    - Headings and titles: headings.md
+    - Procedures: Procs.md 
+    - Interface writing: interfacewriting.md
+
+theme: 
+  name: readthedocs
+  highlightjs: true
+  hljs languages:
+    - yaml
+    - rust

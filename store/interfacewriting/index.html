@@ -1,0 +1,874 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.2.0">
+    
+    
+      
+        <title>Interface writing - SJS Writing for the End User</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.572ca0f0.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.8c900955.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#interface-writing" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="SJS Writing for the End User" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                SJS Writing for the End User
+              </span>
+              <span class="md-header-nav__topic">
+                Interface writing
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="SJS Writing for the End User" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    SJS Writing for the End User
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Content for SJS end users
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Content for SJS end users
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../howtouse/" title="How to use this guide" class="md-nav__link">
+      How to use this guide
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../usefulresources/" title="Useful Resources" class="md-nav__link">
+      Useful Resources
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Approach
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Approach
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../principlesofcontent/" title="Principles of Content" class="md-nav__link">
+      Principles of Content
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../addressuser/" title="Address your user" class="md-nav__link">
+      Address your user
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../avoidduplication/" title="Avoid duplication" class="md-nav__link">
+      Avoid duplication
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../beconcise/" title="Be concise" class="md-nav__link">
+      Be concise
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../useplainlanguage/" title="Use plain language" class="md-nav__link">
+      Use plain language
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../structurecontent/" title="Structure the content" class="md-nav__link">
+      Structure the content
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Style
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Style
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../activevoice/" title="Active voice" class="md-nav__link">
+      Active voice
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../prestense/" title="Present tense" class="md-nav__link">
+      Present tense
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../capitalization/" title="Capitalization" class="md-nav__link">
+      Capitalization
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Punctuation/" title="Punctuation" class="md-nav__link">
+      Punctuation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../images/" title="Images" class="md-nav__link">
+      Images
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../screenshots/" title="Using Screenshots" class="md-nav__link">
+      Using Screenshots
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../abbacronym/" title="Abbrevations and acronyms" class="md-nav__link">
+      Abbrevations and acronyms
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../numbers/" title="Numbers and percentages" class="md-nav__link">
+      Numbers and percentages
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../specificwords/" title="Word list" class="md-nav__link">
+      Word list
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Writing Specific Content
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Writing Specific Content
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../headings/" title="Headings and titles" class="md-nav__link">
+      Headings and titles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Procs/" title="Procedures" class="md-nav__link">
+      Procedures
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Interface writing
+      </label>
+    
+    <a href="./" title="Interface writing" class="md-nav__link md-nav__link--active">
+      Interface writing
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basics" title="Basics" class="md-nav__link">
+    Basics
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#do-the-hard-work-to-make-it-simple" title="Do the hard work to make it simple" class="md-nav__link">
+    Do the hard work to make it simple
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direct-the-reader" title="Direct the reader" class="md-nav__link">
+    Direct the reader
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guidelines" title="Guidelines" class="md-nav__link">
+    Guidelines
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#titles-and-headings" title="Titles and headings" class="md-nav__link">
+    Titles and headings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interface-elements" title="Interface elements" class="md-nav__link">
+    Interface elements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-input" title="User input" class="md-nav__link">
+    User input
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-line-items" title="Command line items" class="md-nav__link">
+    Command line items
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basics" title="Basics" class="md-nav__link">
+    Basics
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#do-the-hard-work-to-make-it-simple" title="Do the hard work to make it simple" class="md-nav__link">
+    Do the hard work to make it simple
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direct-the-reader" title="Direct the reader" class="md-nav__link">
+    Direct the reader
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guidelines" title="Guidelines" class="md-nav__link">
+    Guidelines
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#titles-and-headings" title="Titles and headings" class="md-nav__link">
+    Titles and headings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interface-elements" title="Interface elements" class="md-nav__link">
+    Interface elements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-input" title="User input" class="md-nav__link">
+    User input
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-line-items" title="Command line items" class="md-nav__link">
+    Command line items
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="interface-writing">Interface writing</h1>
+<p>We often write technical documentation, guides, forms, and interface
+messages. In most of these cases, it's safe to say the reader is
+learning something new or troubleshooting. Write clear, concise
+instructions that give your reader with the best possible experience.</p>
+<h2 id="basics">Basics</h2>
+<h3 id="do-the-hard-work-to-make-it-simple">Do the hard work to make it simple</h3>
+<p>Help the reader follow along. Break instructions or processes down into
+individual steps. Use short, simple sentences with words people use in
+everyday conversation.</p>
+<p>Refer to navigation labels, buttons, and menus as they appear in the app
+or website. Verify the spelling and capitalization as you write. Your
+reader looks for the same name as in the instruction. Always boldface
+interface items and omit any terminal punctuation from the bold.</p>
+<p>Be specific and give the reader as much help as you can.</p>
+<p>Instead of:</p>
+<blockquote>
+<p>Open a new support ticket.</p>
+</blockquote>
+<p>Use:</p>
+<blockquote>
+<p><em>Click Help > Contact Technical Support.</em></p>
+</blockquote>
+<h3 id="direct-the-reader">Direct the reader</h3>
+<p>Use active verbs or clear objectives.</p>
+<p>Instead of:</p>
+<blockquote>
+<p>We can help you if you create a JIRA Service Desk request.</p>
+</blockquote>
+<p>Use:</p>
+<blockquote>
+<p>Click <strong>JIRA Service Desk</strong> to create a help request. Include details
+about your problem.</p>
+</blockquote>
+<p>Or:</p>
+<blockquote>
+<p>To get started, click the <strong>JIRA Service Desk</strong> link to create a new
+ticket. Remember to include the details of your problem.</p>
+</blockquote>
+<p>Focus on what the reader can do rather than what they
+can't using positive language.</p>
+<p>Instead of:</p>
+<blockquote>
+<p>You cannot submit without answering all queries.</p>
+</blockquote>
+<p>Use:</p>
+<blockquote>
+<p>Answer any open queries and then submit the proof.</p>
+</blockquote>
+<h2 id="guidelines">Guidelines</h2>
+<h3 id="titles-and-headings">Titles and headings</h3>
+<p>Use consistent naming by sticking to the same naming convention. This
+makes it easier for the reader to scan and find what she's looking for.
+For examples:</p>
+<ul>
+<li><strong>Nouns</strong> -- <em>Proofs</em>, <em>Users</em>, <em>Task</em></li>
+<li><strong>Verbs</strong> -- <em>Create an account</em>, <em>Print a report</em>, <em>Submit a proof</em></li>
+</ul>
+<p>Use sentence case for headings.</p>
+<h3 id="introduction">Introduction</h3>
+<p>Include a short two- or three-sentence summary about the document to
+help the reader confirm whether they're in the right place, and also to
+improve searchability.</p>
+<h3 id="interface-elements">Interface elements</h3>
+<p>Use clear verbs to tell readers how to interact with interface elements:</p>
+<p><em>Choose</em> from drop-down menus.</p>
+<p><em>Select</em> or <em>clear</em> checkboxes and radio buttons.</p>
+<p><em>Click</em> or <em>tap</em> buttons.</p>
+<p><em>Follow</em> or <em>open</em> links.</p>
+<p>Bold interface names and choices:</p>
+<ol>
+<li>Click <strong>File > Open</strong>. Word opens the <strong>File</strong> dialog box.</li>
+<li>Select the file.</li>
+<li>Click <strong>OK</strong>.</li>
+</ol>
+<p>Always use the spelling, grammar, and exact names seen in the interface
+element.</p>
+<h3 id="user-input">User input</h3>
+<p>Use italic to distinguish user input from plain text. For example,</p>
+<blockquote>
+<p>Type the exact name of the dialog box, such as <em>Exit system</em>.</p>
+</blockquote>
+<h3 id="command-line-items">Command line items</h3>
+<p>Command line items should be in monospace, such as Courier, Consolas, or
+similar. Do not use italic for this form of user input.</p>
+<p>At the C: prompt, type the following: <code>chkdsk /v /f</code> and press <strong>Enter</strong>.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Procs/" title="Procedures" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Procedures
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.b41f3d20.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
