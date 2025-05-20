@@ -34,3 +34,6 @@ theme:
   hljs languages:
     - yaml
     - rust
+    - python
+plugins:
+mkdocs-print-site-plugin
