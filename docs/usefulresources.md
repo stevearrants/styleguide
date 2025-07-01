@@ -6,18 +6,14 @@ question.
 
 ## Style guides
 
-I generally follow the [Good Developer Documentation Style Guide](https://developers.google.com/style)![](Resources/Images/offsite-link.png) and the [Microsoft Writing Style
+I generally follow the [Google Developer Documentation Style Guide](https://developers.google.com/style)![](Resources/Images/offsite-link.png) and the [Microsoft Writing Style
 Guide](https://docs.microsoft.com/en-us/style-guide/welcome/).![](Resources/Images/offsite-link.png)
 I use these for computer, interface, and software terms, unless otherwise
 noted. The other important resource I use are:
 
--   [The Chicago Manual of Style, 18th
-    ed.](http://www.chicagomanualofstyle.org/home.html)
-    ![](Resources/Images/offsite-link.png)
--   [Plain Language Action and Information Network
-    ![](Resources/Images/offsite-link.png)](http://www.plainlanguage.gov/)
--   [Diversity Style Guide
-    ![](Resources/Images/offsite-link.png)](http://www.diversitystyleguide.com/)
+-   [The Chicago Manual of Style, 18thed.](http://www.chicagomanualofstyle.org/home.html)![](Resources/Images/offsite-link.png)
+-   [Plain Language Action and Information Network](http://www.plainlanguage.gov/)![](Resources/Images/offsite-link.png)
+-   [Diversity Style Guide](http://www.diversitystyleguide.com/)![](Resources/Images/offsite-link.png)
 
 [The Punctuation
 Guide](http://www.thepunctuationguide.com/index.html)
