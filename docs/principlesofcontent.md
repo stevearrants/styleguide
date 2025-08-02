@@ -10,8 +10,7 @@ Write in a way that suits the situation. Ask yourself the following:
 * What are their constraints and environment?
 * How can I help?
 
-Help people find the information they need quickly and easily. Guide
-them through the journey.
+Help people find the information they need quickly and easily. Guide them through the journey.
 
 ## Make it simple for the user
 
@@ -27,12 +26,11 @@ Developers, end-users, customers, and all readers have complex experiences and b
 ## Build trust with your audience
 
 * Talk like a person, not a computer.
-* Don't sugar coat a problem. Tell the truth.
-* Use positive language and concrete, real world examples.
+* Don't sugarcoat a problem. Tell the truth.
+* Use positive language and concrete, real-world examples.
 * Start small and build big.
 
-Does your content works for users? Don't be afraid to rethink and
-rewrite.
+Does your content work for users? Don't be afraid to rethink and rewrite.
 
 Write a draft. Test on your users and readers. Examine their feedback.
 Refine. Make it better, test it out, gather feedback, and keep improving it.
