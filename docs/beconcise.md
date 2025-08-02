@@ -2,13 +2,14 @@
 
 Good content should be:
 
-* Specific.
-* Informative.
-* Clear and concise.
-* Brisk but not terse.
-* Incisive.
+* Specific
+* Informative
+* Clear and concise
+* Brisk but not terse
+* Incisive
 
-Be serious but not pompous or emotionless---be frugal with adjectives. They're subjective and make the text sound emotive and inauthentic.
+Be serious but not pompous or emotionless. 
+Be frugal with adjectives. They're subjective and make the text sound emotive and inauthentic.
 
 You should:
 
@@ -21,15 +22,11 @@ You should:
 
 ## Keep sentences and paragraphs short
 
-If a sentence has more than 25 words, try to split it to make the points
-clearer.
+If a sentence has more than 25 words, try to split it to make the points more straightforward.
 
-Vary sentence length. This helps keep readers interested and varies your
-tone. Too many short sentences sound terse and like you're giving
-orders. Longer sentences help the flow as well.
+Vary sentence length. This helps keep readers interested and varies your tone. Too many short sentences sound terse and like you're giving orders. Longer sentences also help the flow.
 
-Do the same for paragraphs. If it looks long, it is. Try to break it up. Let's
-look at some examples. Instead of:
+Do the same for paragraphs. If it looks long, it is. Try to break it up. Let's look at some examples. Instead of:
 
 > Generally, we update the software regularly. When an update is scheduled for
 > release, we will alert you that it occurred. It is
@@ -37,5 +34,4 @@ look at some examples. Instead of:
 
 Use:
 
-> We regularly update our software quarterly, and we notify you when it happens.
-Remember that you are responsible for reading the notices.
+> We regularly update our software quarterly and notify you when updates are available. Remember that you are responsible for reading the notices.
