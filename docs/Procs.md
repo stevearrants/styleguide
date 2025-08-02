@@ -8,7 +8,7 @@ Here are some rules of thumb for writing effective procedures:
 * If there is only one step, use a bullet, and not the number 1.
 * Active voice is easier to understand. Use it!
 * Use second person. You're talking to the user, so second person is best. You can even use the word *You* in your instructions (like I just did).
-* Present tense. Most of the time users read the instructions when they're in the middle of trying to do something or to solve a problem.
+* Present tense. Most of the time, users read the instructions when they're in the middle of trying to do something or solve a problem.
 * No more than 8 steps. If you require more, break the procedure up into a grouped set.
 * Include images and videos if they help the user. Even a schematic drawing can help when showing how to install hardware.
 * Use sub-steps sparingly, and use bullets or a, b, c, etc. Don't mix them!
