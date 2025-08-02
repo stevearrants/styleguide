@@ -1,24 +1,16 @@
 # Interface writing
 
-We often write technical documentation, references, collaterals, and other materials.
-In most of these cases it's safe to say the reader is
-learning something new or troubleshooting. Write clear, concise
-instructions that give your reader with the best possible experience.
+We often write technical documentation, references, collaterals, and other materials. In most cases, it's safe to say that the reader is learning something new or troubleshooting. Write clear, concise instructions that give your reader the best possible experience.
 
 ## Basics
 
 ### Keep It Simple
 
-Help the reader follow along. Break instructions or processes down into
-individual steps. Use short, simple sentences with words people use in
-everyday conversation.
+Help the reader follow along. Break instructions or processes down into individual steps. Use short, simple sentences with words people use in everyday conversation.
 
-Refer to navigation labels, buttons, and menus like they appear in the
-application or service. Verify the spelling and capitalization as you write. Your 
-reader looks for the same name as the one in the instructions. Always boldface
-interface items and omit any terminal punctuation from the bold. 
+Refer to navigation labels, buttons, and menus as they appear in the application or service. Verify the spelling and capitalization as you write. Your reader looks for the same name as the one in the instructions. Always boldface interface items and omit any terminal punctuation from the bold. 
 
-Be specific and give the reader as much help as you can.
+Be specific and provide the reader with as much help as possible.
 
 Instead of:
 
@@ -28,9 +20,7 @@ Use:
 
 > Click **Help > Contact Technical Support**.
 
-If the interface item is incorrectly spelled or capitalized, go with the way it
-is presented in the interface. The reader often looks for *precisely* that spelling. 
-Contact development to suggest an interface edit. 
+If the interface item is incorrectly spelled or capitalized, go with the way it is presented in the interface. The reader often looks for *precisely* that spelling. Contact development to suggest an interface edit. 
 
 ### Direct the reader
 
@@ -47,11 +37,9 @@ Use:
 
 Or:
 
-> To get started, select the **Support** link to create a new
-> ticket. Remember to include the details of your problem.
+> To get started, select the **Support** link to create a new ticket. Remember to include the details of your problem.
 
-Focus on what the reader *can do* rather than what they
-*can't* by using positive language.
+Focus on what the reader *can do* rather than what they *can't* by using positive language.
 
 Instead of:
 
@@ -65,15 +53,12 @@ Use:
 
 ### Interface elements
 
-Use clear verbs to tell readers how to interact with interface elements:
+Use precise verbs to tell readers how to interact with interface elements:
 
-*Choose* from drop-down menus.
-
-*Select* or *clear* checkboxes and radio buttons.
-
-*Select*, *click*, or *tap* buttons.
-
-*Follow* or *open* links.
+- *Choose* from drop-down menus.
+- *Select* or *clear* checkboxes and radio buttons.
+- *Select*, *click*, or *tap* buttons.
+- *Follow* or *open* links.
 
 Bold interface names and choices:
 
