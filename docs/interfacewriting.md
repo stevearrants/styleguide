@@ -66,8 +66,7 @@ Bold interface names and choices:
 2.  Choose the file in the list.
 3.  Select **OK**.
 
-Always use the spelling, grammar, and exact names seen in the interface
-element.
+Always use the spelling, grammar, and exact names seen in the interface element.
 
 ### User input
 
