@@ -2,11 +2,7 @@
 
 ## Use shorter words that aren't ambiguous
 
-Shorter words are often more accurate and less ambiguous. Writers sometimes use 
-long, complex words. It's a way to put distance between themselves and the text.
-Some writers think the bigger the word, the more authoritative they sound.
-Unless certain words or phrases are required due 
-to regulation or a corporate guide, use the shorter, simpler word or phrase.
+Shorter words are often more accurate and less ambiguous. Writers sometimes use long, complex words. It's a way to put distance between themselves and the text. Some writers think the bigger the word, the more authoritative they sound. Unless certain words or phrases are required due to regulation or a corporate guide, use the shorter, simpler word or phrase.
 
 Here is a sample list to get you started.
 
