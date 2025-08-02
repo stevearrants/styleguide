@@ -2,10 +2,8 @@
 
 ## Bulleted lists
 
-Capitalize the first word of every bullet. Don't use semicolons or a comma after
-points in a bulleted list. Include a period at the end of the bullet
-only if that point is a complete sentence. If one bullet point
-requires a period, all should have a period. For example:
+Capitalize the first word of every bullet. Don't use semicolons or a comma after points in a bulleted list. Include a period at the end of the bullet
+only if that point is a complete sentence. If one bullet point requires a period, all should have a period. For example:
 
 > When you go to the store, please buy:
 >
@@ -36,28 +34,23 @@ quotation or the first word after a colon is a proper noun. For example:
 
 ## Semicolons
 
-Use semicolons sparingly. They are difficult to see on some hand-held
-devices. Semicolons can sometimes confuse non-native English speakers.
-For example, in Greek you end a question with a semicolon. 
+Use semicolons sparingly. They are difficult to see on some hand-held devices. Semicolons can sometimes cause confusion for non-native English speakers.
+For example, in Greek, you end a question with a semicolon. 
 
 Try rewriting the sentence or paragraph to make it more readable.
 
 ## Commas
 
-Use the serial comma (sometimes called the Oxford comma). In a list of
-three or more, include a comma before the conjunction. For example:
+Use the serial comma (sometimes called the Oxford comma). In a list of three or more, include a comma before the conjunction. For example:
 *Please buy milk, apples, and cod cakes.*
 
 ## Dashes
 
-When offsetting a phrase with dashes you should use the longer em dash
-(&mdash;) with a space on either side of the dash. For example:
+When offsetting a phrase with dashes, you should use the longer em dash (&mdash;) with a space on either side of the dash. For example:
 
-*We emphasize specific, customer-centered workflows, and &mdash; whenever
-possible &mdash; we preserve your current workflow.*
+*We emphasize specific, customer-centered workflows, and &mdash; whenever possible &mdash; we preserve your current workflow.*
 
-Although you should use words instead of symbols, in some contexts
-you may use an "en dash" to convey a range of numbers. For example, both
+Although you should use words instead of symbols, in some contexts you may use an "en dash" to convey a range of numbers. For example, both 
 *10&ndash;20 footnotes* and *10 to 20 footnotes* are acceptable options.
 
 > *We assign 2&ndash;5 people to each implementation team.*
@@ -66,24 +59,21 @@ you may use an "en dash" to convey a range of numbers. For example, both
 
 These quotations are correctly punctuated:
 
-> "Would you like a milk shake?" he asked.
+> "Would you like a milkshake?" he asked.
 >
-> "I don't like milk shakes," she said. "You know I detest milk
-> shakes."
+> "I don't like milkshakes," she said. "You know I detest milkshakes."
 >
 > He paused before saying, "Well, how about a Pepsi?"
 
 ## Spaces
 
-Sentences should always be separated by a single space. Never two
+A single space should always separate sentences. Never two
 spaces.
 
 ## Ampersands or plus signs
 
-Use *and* instead of an ampersand or plus sign, unless they're part of a command, 
-an official title, or a  company name. For example, *Hoefler & Co.*
+Use *and* instead of an ampersand or plus sign, unless they're part of a command, an official title, or a  company name. For example, *Hoefler & Co.*
 
 ## Slashes
 
-Avoid using the slash */* symbol. Replace it with words or commas as
-appropriate. If you must use a /, or if your corporate style guide requires it, do not place a space before/after the slash.
+Avoid using the slash */* symbol. Replace it with words or commas as appropriate. If you must use a /, or if your corporate style guide requires it, do not place a space before/after the slash.
