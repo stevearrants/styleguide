@@ -1,8 +1,6 @@
 # Word list
 
-Here are some rules using common words and phrases. The bold term shows
-the accepted form (capitalization, hyphenation, punctuation), with
-accompanying text explaining usage.
+Here are some rules for using common words and phrases. The bold term displays the accepted form (capitalization, hyphenation, punctuation), accompanied by explanatory text on usage.
 
 -   **a.m.**
 -   **connector** <u>**DO NOT USE**</u>.
@@ -22,8 +20,6 @@ accompanying text explaining usage.
 -   **p.m.**
 -   **URLs** should be lowercase, even when they appear at the start of
     a sentence. For example, *ipaas.com is our web address.* If a
-    URL ends a sentence, do not include terminal punctuation. For
+    URL ends a sentence; do not include terminal punctuation. For
     example, *This URL goes to www.ipaas.com*
 -   **Wi-Fi**
-
-Do you have any you'd like to add?
